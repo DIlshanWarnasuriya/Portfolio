@@ -44,6 +44,7 @@ html {
 
 nav {
     position: sticky;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav ul {
@@ -67,4 +68,130 @@ nav ul li:hover {
     background-color: rgb(240, 240, 240);
     cursor: pointer;
     color: rgb(98, 96, 96);
+}
+
+
+
+
+.homePage{   
+    width: 100%;    
+    display: flex;
+}
+.ProfilePhoto{    
+    width: 50%;    
+}
+.image{
+    width: fit-content;  
+}
+.image img{
+    width: 50%;
+    border-radius: 50%;
+    border: 10px solid black;
+    margin-left: 25%;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+
+.Profiledetails{    
+    width: 50%;
+    height: 650px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+}
+.details{
+    width: 70%;
+    margin-left: 20%;
+    margin-top: 20%;    
+}
+
+.details h5{
+    font-size: 30px;
+    color: #87848a;
+    margin-bottom: 2%;
+}
+
+.details h2{    
+    font-size: 40px;
+    margin-bottom: 2%;
+}
+.details p{
+    font-size: 120%;
+    color: #87848a;
+    margin-top: 2%;
+}
+.details b{
+    font-weight: bold;
+}
+
+.HomeButton button{
+    margin-top: 3%;
+    width: 25%;
+    height: 40px;
+    text-align: center;
+    color: #ff6b6b;
+    border-radius: 10px;    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    transition: 0.3s;
+    font-weight: bold;
+    border: 3px solid #ff6b6b;
+}
+.HomeButton button:hover{
+    cursor: pointer;
+    
+    transition: 0.3s;
+    background-color: #ff6b6b;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon{   
+    margin-top: 3%;
+}
+.icon img{
+    width: 6%;
+    margin-right: 2%;
+}
+.icon img:hover{
+    scale: 1.1;
+    transition: 0.2s;
+    cursor: pointer;
 }
